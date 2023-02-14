@@ -1,0 +1,89 @@
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap');
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+:root {
+    --primary: #F9004D;
+    --secondary: #868690;
+}
+
+/* basic typography */
+body{
+    font-family: 'Poppins', sans-serif;
+    color:var(--secondary);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+h1{
+    font-weight: 800;
+}
+strong{
+    font-weight: 700;
+}
+
+p{
+    color:var(--secondary);
+}
+
+
+
+
+/* basic stylings */
+
+
+/* Nav Bar */
+
+
+/* Home section */
+
+.site-title{
+    font-size: 75px;
+}
+
+.site-title .text-name {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--primary);
+    -webkit-text-fill-color: transparent;
+}
+
+
+.p .my-job {
+    color:white
+}
+
+.scroll-down-arrow{
+    left: 50%;
+    bottom: 40px;
+}
+
+/* about section */
+
+
+/* services section */
+
+
+/* Testimonial section */
+
+
+/* Contact section */
+
+
+/* footer */
+
+
+/* back to top */
+
+
+/* Responsiveness */

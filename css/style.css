@@ -52,6 +52,11 @@ p{
     margin-bottom: 15px;
 }
 
+.section-title-center{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 /* basic stylings */
 
 
@@ -97,7 +102,51 @@ p{
 }
 
 /* about section */
+.nav-tabs .nav-link{
+    color: #FFFFFF !important;
+    font-weight: 400;
+}
 
+.nav-tabs .nav-link.active{
+    background-color: #3e3e3e;
+    border-color: rgba(255, 255, 255, .2);
+    color: #FFFFFF;
+}
+
+.nav-tabs .nav-link:hover{
+    border-color: rgba(255, 255, 255, .3);
+}
+
+
+.nav-tabs{
+    border-color: var(--secondary);
+}
+
+.single-service-icon i{
+    color: var(--primary);
+    font-size: 26px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.single-service-icon{
+    min-height: 72px;
+    min-width: 72px;
+    background-color: #3c3c3c;
+    border-radius: 5px;
+}
+
+.single-service{
+    text-align: left;
+}
+
+.single-service p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+}
 
 /* services section */
 

@@ -16,6 +16,16 @@ typewriter.typeString('Web Developer')
     .start();
 // Tab toggle
 
+var TabList = document.querySelectorAll('.nav-tabs .nav-item a');
+TabList.forEach(function(e){
+    var TabTrigger = new bootstrap.Tab(e)
+    console.log(TabTrigger);
+    e.addEventListener('click', function(e){
+        e.preventDefault();
+        TabTrigger.show(); 
+    })
+}) 
+
 
 // isotope js
 

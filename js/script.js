@@ -14,7 +14,6 @@ typewriter.typeString('Web Developer')
     .pauseFor(2000)
     .deleteAll()
     .start();
-// Tab toggle
 
 var TabList = document.querySelectorAll('.nav-tabs .nav-item a');
 TabList.forEach(function(e){
@@ -28,7 +27,15 @@ TabList.forEach(function(e){
 
 
 // isotope js
+var grid  = document.querySelector('.grid');
+var iso;
 
+imagesLoaded(grid, function(){
+iso = new Isotope(grid, {
+    itemSelector: '.grid-item',
+    layoutMode: 'masonry'
+})
+});
 
 // Testimonial Slider
 
